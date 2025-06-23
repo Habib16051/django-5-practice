@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Site{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'intro/css/style.css' %}">
+</head>
+<body>
+<!--Here, we are using dynamic values and rendering them using Django Template Language (DTL) techniques-->
+{% block content %}{% endblock %}
+</body>
+</html>
