@@ -18,28 +18,3 @@
 <p><b>{{ student.name }}</b> - {{ student.age }} years old</p>
 {% endfor %}
 {% endblock content %}
-
-
-<!--<!DOCTYPE html>-->
-<!--{% load static %}-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <link rel="stylesheet" href="{% static 'intro/css/style.css' %}">-->
-<!--    <title>{{ title }}</title>-->
-<!--</head>-->
-<!--<body>-->
-<!--&lt;!&ndash;Here, we are using dynamic values and rendering them using Django Template Language (DTL) techniques&ndash;&gt;-->
-<!--<h1>{{ message|upper }}</h1>-->
-<!--<h2>{%if title == 'Home Page'%}</h2>-->
-<!--<p>Welcome to <b>{{title}}</b>!</p>-->
-<!--{% else %}-->
-<!--<p>This is not the home page.</p>-->
-<!--{% endif %}-->
-<!--<h2>Current Date: {{current_time}}</h2>-->
-<!--<p>Student List: </p>-->
-<!--{% for student in students %}-->
-<!--<p><b>{{ student.name }}</b> - {{ student.age }} years old</p>-->
-<!--{% endfor %}-->
-<!--</body>-->
-<!--</html>-->
